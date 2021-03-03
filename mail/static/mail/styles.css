@@ -1,0 +1,83 @@
+textarea {
+    min-height: 300px;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    padding: 10px;
+}
+
+.navigation ul, li {
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #5e5e5e;
+    cursor: pointer;
+    
+}
+
+.navigation ul {
+    margin: 60px auto;
+}
+
+.title h2 {
+    position: absolute;
+    right: 10px;
+    font-size: 18px;
+    padding: 10px;
+    color: #1a8492;
+}
+
+#emails-view, 
+#compose-view,
+#email-view {
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    width: 80%;
+}
+
+#boton {
+    outline: none;
+    border: none;
+    background-color: #fff ;
+    
+}
+
+#menuOpen {
+    margin: 10px;
+    padding: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #6b6b6b80;
+    border: 1px solid #6b6b6b20;
+    border-radius: 50%;
+}
+
+/* --------- estilo del cuerpo del email ----------- */ 
+
+.email-info {
+    background-color: #dedede;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-body {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+/* ----------- margen entre botones ------------ */
+
+.btn {
+    margin: 5px;
+}
